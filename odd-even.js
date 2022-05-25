@@ -34,7 +34,7 @@ function isOdd(number) {
     }
     return false;
 }
-const myNumber = 1640;
+const myNumber = 1359;
 const isMyNumberOdd = isOdd(myNumber);
 console.log("is my number even", isMyNumberOdd);
 
