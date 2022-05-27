@@ -8,7 +8,7 @@
 // console.log(sum);
 
 
-// Same task done by used function
+// // Same task done by used function
 
 function arrayTotal(numbers) {
     let sum = 0;
@@ -17,7 +17,7 @@ function arrayTotal(numbers) {
         sum = sum + element;
 
     }
-    return sum ;
+    return sum;
 }
-const total = arrayTotal(21, 42, 54);
+const total = arrayTotal([43, 45, 87]);
 console.log('array total', total)
