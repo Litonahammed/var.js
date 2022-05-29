@@ -19,5 +19,5 @@ function arrayTotal(numbers) {
     }
     return sum;
 }
-const total = arrayTotal([43, 45, 87]);
-console.log('array total', total)
+const total = arrayTotal([43, 45,100]);
+console.log('array total', total);
