@@ -24,12 +24,13 @@
 
 function arrayTotal(numbers){
     let = 0;
-    for(i= 0; i<numbers.length; i++){
-        cosnt element = numbers[i];
+    for(let i= 0; i< numbers.length; i++){
+        const element = numbers[i];
         sum = sum+element;
 
-    }return sum;
+    }
+    return sum;
 
 }
-const total = arrayTotal)([47,93,94])
-console.log("total result"total)
+const total = arrayTotal([47,93,94])
+console.log("total result" total)
