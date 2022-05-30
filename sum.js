@@ -10,14 +10,27 @@
 
 // // Same task done by used function
 
+// function arrayTotal(numbers) {
+//     let sum = 0;
+//     for (let i = 0; i < numbers.length; i++) {
+//         const element = numbers[i];
+//         sum = sum + element;
+
+//     }
+//     return sum;
+// }
+// const total = arrayTotal([268, 488,100]);
+// console.log('array total', total);
+
 function arrayTotal(numbers) {
-    let sum = 0;
+    let = 0;
     for (let i = 0; i < numbers.length; i++) {
         const element = numbers[i];
         sum = sum + element;
 
     }
     return sum;
+
 }
-const total = arrayTotal([43, 745,100]);
-console.log('array total', total);
+const total = arrayTotal([47, 93, 94]);
+console.log("total result", total);
